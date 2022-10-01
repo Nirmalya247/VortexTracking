@@ -1,0 +1,96 @@
+3D Flow Around a Confined Square Cylinder
+============================================================
+
+This is a 3D time-dependent flow field. The original data set is 440 GB large and lives on a tetrahedral grid. We provide a much smaller version of about 688 MB here that has been resampled onto a uniform grid.
+
+More information (file format, resolution, previous visualizations, etc.) can be found on http://tinoweinkauf.net/
+
+
+How to Acknowledge
+============================================================
+
+You are free to use this data set as long as you give proper acknowledgement. Please use a LaTeX snippet similar to the following:
+
+    This is a direct numerical Navier Stokes simulation by Simone Camarri and 
+    Maria-Vittoria Salvetti (University of Pisa), Marcelo Buffoni (Politecnico of 
+    Torino), and Angelo Iollo (University of Bordeaux I) \cite{camarri05} which is 
+    publicly available \cite{iCFDDatabase}. We use a uniformly resampled version 
+    which has been provided by Tino Weinkauf and used in von Funck et al.\ for
+    smoke visualizations \cite{vonfunck08a}.
+
+with the following BibTeX entries:
+
+    @INPROCEEDINGS{camarri05,
+      author = {S.~Camarri and M.-V.~Salvetti and M.~Buffoni and A.~Iollo},
+      title = {Simulation of the three-dimensional flow around a square cylinder between parallel walls at moderate {Reynolds} numbers},
+      booktitle = {{XVII Congresso di Meccanica Teorica ed Applicata}},
+      year = {2005}
+    }
+
+    @MISC{iCFDDatabase,
+      howpublished = {International CFD Database, http://cfd.cineca.it/},
+      key = {International CFD Database},
+      url = {http://cfd.cineca.it/}
+    }
+
+    @ARTICLE{vonfunck08a,
+      author = {W.~von~Funck and T.~Weinkauf and H.~Theisel and H.-P.~Seidel},
+      title = {Smoke Surfaces: An Interactive Flow Visualization Technique Inspired by Real-World Flow Experiments},
+      journal = {IEEE Transactions on Visualization and Computer Graphics (Proceedings Visualization 2008)},
+      year = {2008},
+      volume = {14},
+      pages = {1396--1403},
+      number = {6},
+      month = {November - December},
+      abstract = {Smoke rendering is a standard technique for flow visualization. Most
+                  approaches are based on a volumetric, particle based, or image based
+                  representation of the smoke. This paper introduces an alternative
+                  representation of smoke structures: as semi-transparent streak surfaces.
+                  In order to make streak surface integration fast enough for interactive
+                  applications, we avoid expensive adaptive retriangulations by coupling
+                  the opacity of the triangles to their shapes. This way, the surface
+                  shows a smoke-like look even in rather turbulent areas. Furthermore,
+                  we show modifications of the approach to mimic smoke nozzles, wool
+                  tufts, and time surfaces. The technique is applied to a number of
+                  test data sets.},
+      keywords = {Unsteady flow visualization, streak surfaces, smoke visualization},
+      url = {http://tinoweinkauf.net/}
+    }
+
+Instead of or in addition to ``vonfunck08a``, you may also cite this paper for visualizations and analysis results of this data set:
+
+    @ARTICLE{weinkauf10c,
+      author = {T.~Weinkauf and H.~Theisel},
+      title = {Streak Lines as Tangent Curves of a Derived Vector Field},
+      journal = {IEEE Transactions on Visualization and Computer Graphics (Proceedings Visualization 2010)},
+      year = {2010},
+      volume = {16},
+      pages = {1225--1234},
+      number = {6},
+      month = {November - December},
+      abstract = {Characteristic curves of vector fields include stream, path, and streak
+                  lines. Stream and path lines can be obtained by a simple vector field
+                  integration of an autonomous ODE system, i.e., they can be described
+                  as tangent curves of a vector field. This facilitates their mathematical
+                  analysis including the extraction of core lines around which stream
+                  or path lines exhibit swirling motion, or the computation of their
+                  curvature for every point in the domain without actually integrating
+                  them. Such a description of streak lines is not yet available, which
+                  excludes them from most of the feature extraction and analysis tools
+                  that have been developed in our community. In this paper, we develop
+                  the first description of streak lines as tangent curves of a derived
+                  vector field -- the streak line vector field -- and show how it can
+                  be computed from the spatial and temporal gradients of the flow map,
+                  i.e., a dense path line integration is required. We demonstrate the
+                  high accuracy of our approach by comparing it to solutions where
+                  the ground truth is analytically known and to solutions where the
+                  ground truth has been obtained using the classic streak line computation.
+                  Furthermore, we apply a number of feature extraction and analysis
+                  tools to the new streak line vector field including the extraction
+                  of cores of swirling streak lines and the computation of streak line
+                  curvature fields. These first applications foreshadow the large variety
+                  of possible future research directions based on our new mathematical
+                  description of streak lines.},
+      keywords = {unsteady flow visualization, streak lines, streak surfaces, feature extraction},
+      url = {http://tinoweinkauf.net/}
+    }

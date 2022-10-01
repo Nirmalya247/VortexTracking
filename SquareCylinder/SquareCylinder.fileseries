@@ -1,0 +1,122 @@
+FxFileSeriesField
+Version 2
+
+#The additional part of the nD BoundingBox
+AdditionalBounds 0 162
+
+#The nD BoundingBox used for evaluation
+#Use this to work around numerical problems at the borders
+#To disable this feature invalidate the box, i.e., min > max
+UserBBox 1 -1 1 -1 1 -1 1 -1
+
+#How to load the single file steps using the TCL interpreter
+#Must be a quoted string
+LoadCmdPrefix "load"
+
+#Number of file steps
+NumOfFileSteps 102
+
+#Filenames of the file steps in correct order
+#They shall not be quoted and each one must be on a single line
+flow_t0008.am
+flow_t0048.am
+flow_t0088.am
+flow_t0128.am
+flow_t0168.am
+flow_t0208.am
+flow_t0248.am
+flow_t0288.am
+flow_t0328.am
+flow_t0368.am
+flow_t0408.am
+flow_t0448.am
+flow_t0488.am
+flow_t0528.am
+flow_t0568.am
+flow_t0608.am
+flow_t0648.am
+flow_t0688.am
+flow_t0728.am
+flow_t0768.am
+flow_t0808.am
+flow_t0848.am
+flow_t0888.am
+flow_t0928.am
+flow_t0968.am
+flow_t1008.am
+flow_t1048.am
+flow_t1088.am
+flow_t1128.am
+flow_t1168.am
+flow_t1208.am
+flow_t1248.am
+flow_t1288.am
+flow_t1328.am
+flow_t1368.am
+flow_t1408.am
+flow_t1448.am
+flow_t1488.am
+flow_t1528.am
+flow_t1568.am
+flow_t1608.am
+flow_t1648.am
+flow_t1688.am
+flow_t1728.am
+flow_t1768.am
+flow_t1808.am
+flow_t1848.am
+flow_t1888.am
+flow_t1928.am
+flow_t1968.am
+flow_t2008.am
+flow_t2048.am
+flow_t2088.am
+flow_t2128.am
+flow_t2168.am
+flow_t2208.am
+flow_t2248.am
+flow_t2288.am
+flow_t2328.am
+flow_t2368.am
+flow_t2408.am
+flow_t2448.am
+flow_t2488.am
+flow_t2528.am
+flow_t2568.am
+flow_t2608.am
+flow_t2648.am
+flow_t2688.am
+flow_t2728.am
+flow_t2768.am
+flow_t2808.am
+flow_t2848.am
+flow_t2888.am
+flow_t2928.am
+flow_t2968.am
+flow_t3008.am
+flow_t3048.am
+flow_t3088.am
+flow_t3128.am
+flow_t3168.am
+flow_t3208.am
+flow_t3248.am
+flow_t3288.am
+flow_t3328.am
+flow_t3368.am
+flow_t3408.am
+flow_t3448.am
+flow_t3488.am
+flow_t3528.am
+flow_t3568.am
+flow_t3608.am
+flow_t3648.am
+flow_t3688.am
+flow_t3728.am
+flow_t3768.am
+flow_t3808.am
+flow_t3848.am
+flow_t3888.am
+flow_t3928.am
+flow_t3968.am
+flow_t4008.am
+flow_t4048.am
